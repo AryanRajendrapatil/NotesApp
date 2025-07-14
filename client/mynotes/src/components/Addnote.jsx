@@ -9,7 +9,7 @@ export const Addnote = ({ setNotes }) => {
   const handlesubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/api/addnote", {
+      .post("https://notesapp-coxu.onrender.com/api/addnote", {
         title: title,
         description: description,
       })
