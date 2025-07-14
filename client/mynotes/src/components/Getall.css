@@ -1,0 +1,35 @@
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+
+}
+
+.note-card {
+  background: #ebd669; /* light yellow */
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.note-card:hover {
+  box-shadow: 0 4px 26px rgba(0, 0, 0, 0.12);
+}
+
+.note-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.note-card p {
+  margin: 0;
+  color: #555;
+}
