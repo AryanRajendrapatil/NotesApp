@@ -7,7 +7,7 @@ const Getall = ({ notes, setNotes }) => {
     useEffect(() => {
         const fetchNotes = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/api/allnotes");
+                const response = await axios.get("https://notesapp-coxu.onrender.com/api/allnotes");
                 setNotes(response.data);
             } catch (error) {
                 console.error("Error fetching notes:", error);
