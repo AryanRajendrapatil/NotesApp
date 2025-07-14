@@ -9,7 +9,7 @@ const UpdataNote = () => {
     const[message,setMessage]=useState("")
     const handleupdate=(e)=>{
        
-        axios.put("http://localhost:5000/api/updatenote",{
+        axios.put("https://notesapp-coxu.onrender.com/api/updatenote",{
             change:change,
             title:title,
             description:description
