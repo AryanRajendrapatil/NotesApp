@@ -8,7 +8,7 @@ const DeleteNote = () => {
   const [message, setmessage] = useState("");
   const handledelete=(e)=>{
     e.preventDefault();
-    axios.delete("http://localhost:5000/api/deletenote", {
+    axios.delete("https://notesapp-coxu.onrender.com/api/deletenote", {
         data:{title: title}
        
       })
