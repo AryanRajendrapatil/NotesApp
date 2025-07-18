@@ -8,6 +8,7 @@ const UpdataNote = () => {
     const[description,SetDescription]=useState("")
     const[message,setMessage]=useState("")
     const handleupdate=(e)=>{
+        e.preventDefault();
        
         axios.put("https://notesapp-coxu.onrender.com/api/updatenote",{
             change:change,
