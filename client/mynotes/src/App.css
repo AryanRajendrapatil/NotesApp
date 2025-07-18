@@ -61,3 +61,27 @@
   letter-spacing: 1px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+textarea.section-title {
+  min-width:440px; 
+  min-height: 80px;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  border:2px solid rgb(203, 202, 202) ;
+  border-radius: 8px;
+  background: white;
+  color: #333;
+  margin-bottom: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+  text-align: start;
+}
+
+textarea.section-title:focus {
+  border-color: black;
+  outline: none;
+  background: #fff9e3;
+
+  
+}
