@@ -41,7 +41,7 @@ const UpdataNote = () => {
           value={title}
           onChange={(e) => Settitle(e.target.value)}
         />
-        <input
+        <textarea   className="section-title"
           type="text"
           placeholder="Enter New Description"
           value={description}
