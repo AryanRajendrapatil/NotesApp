@@ -17,6 +17,10 @@ const UpdataNote = () => {
         })
         .then((res) => {
        setMessage("note updated successfully");    
+        Setchange("");
+        Settitle("");
+        SetDescription("");
+            
        
       })
       .catch((err) => {
