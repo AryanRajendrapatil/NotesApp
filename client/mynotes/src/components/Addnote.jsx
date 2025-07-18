@@ -32,7 +32,7 @@ export const Addnote = ({ setNotes }) => {
           value={title}
           onChange={(e) => settitle(e.target.value)}
         />
-        <input 
+        <textarea   className="section-title" 
           type="text"
           placeholder="Enter Description"
           value={description}
