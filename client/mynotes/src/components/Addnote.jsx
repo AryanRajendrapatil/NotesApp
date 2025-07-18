@@ -15,7 +15,9 @@ export const Addnote = ({ setNotes }) => {
       })
       .then((res) => {
         setmessage("Note added successfully!!");
-        setNotes(res.data); // Update notes list directly
+        setNotes(res.data); 
+        settitle("");       
+        setdescription("");
       })
       .catch((err) => {
         setmessage("Error adding note");
