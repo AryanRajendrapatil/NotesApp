@@ -49,7 +49,7 @@ const UpdataNote = () => {
         />
         <button type="submit">Update Note</button>
       </form>
-      <p>{message}</p>
+      <p className="message">{message}</p>
     </div>
   )
 }
